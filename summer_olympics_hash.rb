@@ -19,7 +19,7 @@ def iterate_through_hash
     summer_olympics.each do |city, year|
     
        puts "The #{city} summer olympics took place in #{year}."
-       
+       puts city.upcase
     end 
   end 
     iterate_through_hash
